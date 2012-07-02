@@ -1,8 +1,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>layout-test </title>
 </head>
 <style type="text/css">
+div.container {
+			width:980px;
+			height:1256px;
+			background-image:url(../layout2/images/site1.jpg);
+			background-repeat:no-repeat;
+			background-position:top center;	
+}
 
 div {
 	outline:1px dashed #000;	
@@ -10,19 +18,19 @@ div {
 
 div.header {
 	width:auto;
-	min-height:100px;
+	min-height:210px;
 	
 }
 div.header-left {
-			width:200px;
+			width:290px;
 			float:left;
-			min-height:100px;
+			min-height:210px;
 }
 div.header-right {
 		width:auto;
-		margin-left:200px;
+		margin-left:290px;
 		border:1px solid #00F;
-		min-height:100px;	
+		min-height:210px;	
 }
 div.mother {
 		width:auto;
@@ -30,26 +38,26 @@ div.mother {
 }
 div.main-top {
 	width:auto;
-	min-height:300px;	
+	min-height:330px;	
 }
 div.main-mid {
 		width:auto;
-		min-height:200px;
+		min-height:320px;
 }	
 div.lside-mid {
-		width:150px;
-		min-height:200px;
+		width:330px;
+		min-height:320px;
 		float:left;
 }
 div.mid-mid {
 		width:auto;
-		min-height:200px;
-		margin:0 150px;
+		min-height:320px;
+		margin:0 330px;
 			
 }
 div.rside-mid {
-		width:150px;
-		min-height:200px;
+		width:330px;
+		min-height:320px;
 		float:right;
 		
 }
@@ -60,41 +68,29 @@ div.nakhalaf {
 }
 div.main-bottom {
 		width:auto;
-		min-height:300px;	
+		min-height:250px;	
 }
-div.lside-bottom
+div.lside-bottom,div.mid1-bottom,div.mid2-bottom
 {
 				float:left;
-				width:350px;
-				min-height:300px;
+				width:230px;
+				min-height:250px;
 				border:1px dotted #0F3;
 }
-div.mid1-bottom
- {
-				float:left;
-				width:350px;
-				min-height:300px;
-				border:1px dotted #0F3;
-}
-div.mid2-bottom{
-				float:left;
-				width:350px;
-				min-height:300px;
-				border:1px dotted #0F3;
-}
+
 div.rside-bottom{
-		margin-left:1055px;
-		min-height:300px;	
+		margin-left:696px;
+		min-height:250px;	
 }
 div.footer {
 			width:auto;
-	min-height:100px;
+	min-height:141px;
 	
 }
 
 </style>
 <body>
-
+<div class="container">
 <div class="header">
   	<div class="header-left"></div>
     <div class="header-right"></div>
@@ -116,6 +112,7 @@ div.footer {
   </div>
 </div>
 <div  class="footer">
+</div>
 </div>
 </body>
 </html>
